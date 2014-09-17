@@ -12,8 +12,8 @@ CLI for checking domain availability through the [Domainr API](https://domai.nr/
 
 `isav tearawaytrousers`
 
-tearawaytrousers.io ✔︎
-tearawaytrousers.com ✖
+- tearawaytrousers.io ✔︎
+- tearawaytrousers.com ✖
 
 **Register a domain (opens in default browser)**
 
