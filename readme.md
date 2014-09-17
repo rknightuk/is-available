@@ -2,6 +2,8 @@
 
 CLI for checking domain availability through the [Domainr API](https://domai.nr/api).
 
+![](isav.gif)
+
 ### Install
 
 `npm install --global is-available`
