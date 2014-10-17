@@ -22,7 +22,7 @@ if (userArgs.length === 2 && userArgs[1] == '-r') {
 	else {
 		console.log("Opening browser to register " + input);
 		setTimeout(function() {
-			open('https://domainr.com/api/register?domain='+input);
+			open('https://domainr.com/api/register?domain='+input+'&client_id=is-available');
 		}, 1000);
 		return;
 	}
