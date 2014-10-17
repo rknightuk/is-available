@@ -22,13 +22,13 @@ if (userArgs.length === 2 && userArgs[1] == '-r') {
 	else {
 		console.log("Opening browser to register " + input);
 		setTimeout(function() {
-			open('https://domai.nr/api/register?domain='+input);
+			open('https://domainr.com/api/register?domain='+input);
 		}, 1000);
 		return;
 	}
 }
 
-path = 'https://domai.nr/api/json/search?q='+input+'&client_id=is-available';
+path = 'https://domainr.com/api/json/search?q='+input+'&client_id=is-available';
 
 search();
 
@@ -37,7 +37,7 @@ function search() {
 		var results = JSON.parse(body);
 		results = results.results;
 
-		for (var i = results.length - 1; i >= 0; i--) {	
+		for (var i = results.length - 1; i >= 0; i--) {
 			var available, completeDomain, domain = results[i];
 
 			switch (domain.availability) {
