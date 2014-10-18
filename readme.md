@@ -1,6 +1,6 @@
 ## is-available
 
-CLI for checking domain availability through the [Domainr API](https://domai.nr/api).
+CLI for checking domain availability through the [Domainr API](https://domainr.com/api).
 
 ![](isav.gif)
 
