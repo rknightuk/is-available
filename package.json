@@ -1,6 +1,6 @@
 {
 	"name": "is-available",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Check domain availability through the Domainr API",
 	"main": "index.js",
 	"scripts": {
