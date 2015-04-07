@@ -22,13 +22,13 @@ if (userArgs.length === 2 && userArgs[1] == '-r') {
 	else {
 		console.log("Opening browser to register " + input);
 		setTimeout(function() {
-			open('https://domainr.com/api/register?domain='+input+'&client_id=is-available');
+			open('https://api.domainr.com/v1/api/register?domain='+input+'&client_id=is-available');
 		}, 1000);
 		return;
 	}
 }
 
-path = 'https://domainr.com/api/json/search?q='+input+'&client_id=is-available';
+path = 'https://api.domainr.com/v1/api/json/search?q='+input+'&client_id=is-available';
 
 search();
 
