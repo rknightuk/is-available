@@ -28,7 +28,7 @@ if (userArgs.length === 2 && userArgs[1] == '-r') {
 	}
 }
 
-path = 'https://domainr.com/api/json/search?q='+input+'&client_id=is-available';
+path = 'https://api.domainr.com/v1/search?q='+input+'&client_id=is-available';
 
 search();
 
