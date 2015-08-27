@@ -1,5 +1,7 @@
 ## is-available
 
+To use this, you must specify your [Mashape API key](http://docs.mashape.com/api-keys) in `index.js`. Find all instances of `{your-mashape-key}`.
+
 CLI for checking domain availability through the [Domainr API](https://domainr.com/api).
 
 ![](isav.gif)
